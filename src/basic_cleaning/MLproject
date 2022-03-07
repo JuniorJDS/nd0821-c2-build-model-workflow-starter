@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name for the input artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type for the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Description for output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Minimum price for outlier range
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Maximum price for outlier range
         type: string
 
 
